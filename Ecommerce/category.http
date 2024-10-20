@@ -1,0 +1,25 @@
+GET http://localhost:5008/categories
+
+###
+GET http://localhost:5008/categories/5
+
+###
+POST http://localhost:5008/categories
+Content-Type: application/json
+
+{
+    
+    "name": "Back to School"
+}
+
+###
+PUT http://localhost:5008/categories/4
+Content-Type: application/json
+
+{
+    
+    "name": "Eco"
+}
+
+###
+DELETE http://localhost:5008/categories/4
